@@ -42,3 +42,35 @@ Każda choroba zabiera 1 punkt akcji do czasu wyleczenia.
 Jeśli gracz uzbiera 3 choroby, umiera.
 Choroby można leczyć za pomocą ziół, które można znaleźć na polach - 1 zioło leczy 1 chorobę.
 Choroby można też leczyć za pomocą lekartstwa wytwarzanego w obozie z ziół. Lekarstwo leczy wszystkie choroby naraz.
+
+### Statystyki gracza
+Każdy gracz ma 2 statystyki: zdrowie oraz punkty akcji.
+Gracze zaczynają z 5 punktami zdrowia i 5 punktami akcji.
+W trakcie gry te statystyki mogą być modyfkowane przez różne czynniki jak choroba (-PA) czy przedmioty (+PA, +HP).
+Gracz umiera kiedy jego zdrowie spadnie do 0 lub kiedy uzbiera 3 choroby. W obu przypadkach kończy to grę dla tego gracza.
+
+### Zbieranie zaosbów i polowanie
+Gracze mogą zbierać zasoby na polach, które pozwalają na ich zbieranie oraz polować na zwierzęta.
+Akcja zbierania zasobow w tym jedzenia wymaga rzutu kością 1K6 na sukces lub porażkę. Wyrzucenie 1-2 oznacza porażkę, 3-6 oznacza sukces i zdobycie zasobu.
+Przedmioty znajdowane w jaskiniach lub wytwarzane mogą modykować ten rzut, np. dodając +1 do rzutu, lub rzutu wieloma koścmi i wyboru lepszego wyniku lub zebrania wielu zasobów.
+
+Aby polować gracz musi wytworzyć broń, która pozwala na polowanie. Są 3 rodzaje broni: 
+- pułapka pozwala polować na mniejszą zwierzynę na łąkach
+- łuk pozwala polować na większą zwierzynę w lesie
+- wędka pozwala na łowienie ryb w jeziorze
+
+Polowanie zapewnia więcej jedzenia niż zbieranie, ale wymaga broni która zajmuje miejsce w plecaku.
+
+Zasoby gracza są w jego plecaku, który ma ograniczoną pojemność. Gracz może mieć maksymalnie 10 zasobów w plecaku wliczając jedzenie i przedmioty.
+Gracze może w dowolnym momencie przekazać zasoby lub przedmioty innemu graczowi kiedy są na tym samym polu lub sąsiadującym polu.
+Po ulepszeniu obozy zasoby można też składować w obozie.
+
+### Rozwój obozu
+Gracze mogą rozwijać obóz, który pozwala na wytwarzanie przedmiotów, składowanie zasobów oraz ulepszenia.
+
+Dostępne ulepszenia obozu to: (P = gracz. 2xP = 2 graczy, itd.)
+- warsztat - pozwala na wytwarzanie przedmiotów: Wymaga 3xP drewna i 2xP kamień
+- skład - pozwala na składowanie zasobów w obozie: Wymaga 2xP drewna i 2xP włókno
+- palenisko - pozwala na gotowanie/pieczenia jedzenia, co zwiększa jego wartość odżywczą: Wymaga 2xP drewna i 1xP kamień
+- apteczka - pozwala na wytwarzanie lekarstwa z ziół: Wymaga 1xP Kamień 1xP drewna i 1xP włókno
+- schronienie - pozwala na regenerację zdrowia graczowi ktory zakończy turę w obozie : Wymaga 3xP drewna i 2xP włókno
