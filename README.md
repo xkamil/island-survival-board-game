@@ -54,10 +54,7 @@ Gracze mogą zbierać zasoby na polach, które pozwalają na ich zbieranie oraz 
 Akcja zbierania zasobow w tym jedzenia wymaga rzutu kością 1K6 na sukces lub porażkę. Wyrzucenie 1-2 oznacza porażkę, 3-6 oznacza sukces i zdobycie zasobu.
 Przedmioty znajdowane w jaskiniach lub wytwarzane mogą modykować ten rzut, np. dodając +1 do rzutu, lub rzutu wieloma koścmi i wyboru lepszego wyniku lub zebrania wielu zasobów.
 
-Aby polować gracz musi wytworzyć broń, która pozwala na polowanie. Są 3 rodzaje broni: 
-- pułapka pozwala polować na mniejszą zwierzynę na łąkach
-- łuk pozwala polować na większą zwierzynę w lesie
-- wędka pozwala na łowienie ryb w jeziorze
+Aby polować gracz musi wytworzyć broń, która pozwala na polowanie.
 
 Polowanie zapewnia więcej jedzenia niż zbieranie, ale wymaga broni która zajmuje miejsce w plecaku.
 
@@ -75,6 +72,37 @@ Dostępne ulepszenia obozu to: (P = gracz. 2xP = 2 graczy, itd.)
 - apteczka - pozwala na wytwarzanie lekarstwa z ziół: Wymaga 1xP Kamień 1xP drewna i 1xP włókno
 - schronienie - pozwala na regenerację zdrowia graczowi ktory zakończy turę w obozie : Wymaga 3xP drewna i 2xP włókno
 
+# Wytwarzanie przedmiotów
+Gracze mogą wytwarzać przedmioty w obozie, jeśli mają odpowiednie ulepszenia. Przedmioty mogą modyfikować statystyki gracza:
+
+Broń do polowania: Wymaga warsztatu
+- pułapka pozwala polować na mniejszą zwierzynę na łąkach - koszt 2 drewna i 1 kamień
+- łuk pozwala polować na większą zwierzynę w lesie - koszt 2 drewna i 1 włókno
+- wędka pozwala na łowienie ryb w jeziorze - koszt 2 drewna i 1 włókno
+
+Przedmioty:
+- buty - dają +1 PA na stałe - koszt 2 drewna i 2 włókno. Wymaga też warsztatu
+- plecak - zwiększa pojemność plecaka o 2 - koszt 5 włókna i 1 drewno. Wymaga też warsztatu
+- narzuta - zwiększa wytrzymałość gracza dodająć na stałe 1 punkt zdrowia - koszt 3 drewna 3 włókna. Wymaga też warsztatu
+- bandaż - leczy 1 punkt zdrowia - koszt 1 zioło i 1 włókna. Wymaga apteczka
+- lekarstwo - leczy wszystkie choroby - koszt 3 zioła. Wymaga apteczka
+- pochodnia - jednorazowy przedmiot znacznie zwiększający szanse i zmniejszający ryzyko przy exploracji jaskinie. Kosztuje 2 drewna i 1 włókno. Wymaga warsztat
+
+# Znajdowanie przedmiotów
+Exploracja jaskiń pozwala na znalezienie unikalnych przedmiotów które istnieją w grze tylko w 1 egzemplarzu.
+Exploracja wymaga 2 PA i rzutu kostką 1K6:
+Z pochodnią:
+- 1-3: Porażka - pochodnia sie wypala i gracz musi opuścić jaskinię.
+- 4-6: Znalezienie przedmiotu - gracz losuje przedmiot z kart przedmiotów unikatowych
+Bez pochodni:
+- 1-4: Porażka - gracz sie zmęczył oraz nabawil kiku otarć. Traci 1 HP i wycofuje sie z jaskini
+- 5-6: Znalezienie przedmiotu - gracz losuje przedmiot z kart przedmiotów unikatowych
+
+# Unikalne przedmioty znajdowanie w jaskiniach
+- kompas: znacznie ułatwia orientację w terenie. Gracz zyskuje doatkowe 2 PA
+- talizman z kła niedźwiedzia: zwiększa szanse na sukces przy zbieraniu zasobów. Gracz zyskuje +1 do rzutu 1K6 przy zbieraniu zasobów
+- czterositna koniczyna: szczęście ci sprzyja. Raz na turę możesz ponowić dowolny rzut kością 1K6 i wybrać lepszy wynik
+- muszkiet - uniwersalna broń którą mozesz polować na wszystko
 
 ### Ucieczka z wyspy
 Aby uciec z wyspy, gracze muszą zbudować tratwę.
