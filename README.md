@@ -74,3 +74,17 @@ Dostępne ulepszenia obozu to: (P = gracz. 2xP = 2 graczy, itd.)
 - palenisko - pozwala na gotowanie/pieczenia jedzenia, co zwiększa jego wartość odżywczą: Wymaga 2xP drewna i 1xP kamień
 - apteczka - pozwala na wytwarzanie lekarstwa z ziół: Wymaga 1xP Kamień 1xP drewna i 1xP włókno
 - schronienie - pozwala na regenerację zdrowia graczowi ktory zakończy turę w obozie : Wymaga 3xP drewna i 2xP włókno
+
+
+### Ucieczka z wyspy
+Aby uciec z wyspy, gracze muszą zbudować tratwę.
+Budowa tratwy wymaga 5xP drewna, 3xP włókna i 2xP kamienia oraz odpowiednich narzędzi które można wytworzyć w obozie posiadając warsztat.
+Gracze mogą budować tratwę tylko na polu z plażą i miejscem na tratwę.
+Aby zbudować tratwę gracze muszą być na polu i złożyć na nim surowce oraz użyć narzędzi aby zbudować tratwę.
+
+
+### Warunki pogodowe
+Każda tura rozpoczyna się od rzutu kością 1K6, który określa warunki pogodowe na tę turę:
+- 1-3: Słonecznie - brak efektów
+- 4-5: Deszczowo - wejście na bagna kosztuje 2PA, jaskinie są zalane i nie dostępne
+- 6: Huragan - poruszanie sie po planszy kosztuje 1 dodatkowy PA
